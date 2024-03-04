@@ -1,0 +1,33 @@
+/* CardStyles.css */
+
+/* Card container */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Loading skeleton styles */
+  .skeleton-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skeleton-title {
+    width: 70%;
+    height: 16px;
+    margin-bottom: 8px;
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  .skeleton-description {
+    width: 90%;
+    height: 12px;
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  

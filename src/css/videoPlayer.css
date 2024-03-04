@@ -1,0 +1,23 @@
+/* .videoPopup {
+  @apply flex justify-center items-center w-full h-full fixed opacity-0 invisible z-[9] left-0 top-0;
+}
+.videoPopup .opacityLayer {
+  @apply absolute w-full h-full backdrop-blur-[3.5px] opacity-0 transition-opacity duration-[400ms] left-0 top-0;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(3.5px);
+}
+.videoPopup .videoPlayer {
+  @apply relative w-[800px] aspect-video bg-[white] transition-transform duration-[250ms] scale-[0.2];
+}
+.videoPopup .videoPlayer .closeBtn {
+  @apply absolute text-[white] cursor-pointer right-0 -top-5;
+}
+.videoPopup.visible {
+  @apply opacity-100 visible;
+}
+.videoPopup.visible .opacityLayer {
+  @apply opacity-100;
+}
+.videoPopup.visible .videoPlayer {
+  @apply scale-100;
+} */
